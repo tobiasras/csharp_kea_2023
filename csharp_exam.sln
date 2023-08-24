@@ -32,6 +32,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple_Employee_Management_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implementing_Classes", "Implementing_Classes\Implementing_Classes.csproj", "{FF1674A7-1A3F-4EFB-8680-252AD926A7B2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sub_05_Interfaces_Delegates", "Sub_05_Interfaces_Delegates", "{DCD3F3EE-2744-45B8-A423-895988B28D2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces_And_Explicit_Implementation", "Interfaces_And_Explicit_Implementation\Interfaces_And_Explicit_Implementation.csproj", "{16FF2045-329E-44DB-9267-D7847C7A4EFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +90,10 @@ Global
 		{FF1674A7-1A3F-4EFB-8680-252AD926A7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF1674A7-1A3F-4EFB-8680-252AD926A7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF1674A7-1A3F-4EFB-8680-252AD926A7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16FF2045-329E-44DB-9267-D7847C7A4EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16FF2045-329E-44DB-9267-D7847C7A4EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16FF2045-329E-44DB-9267-D7847C7A4EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16FF2045-329E-44DB-9267-D7847C7A4EFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{08703FB3-5A6F-474A-B636-410E7B8C313C} = {549D31D1-AD90-4DE9-811B-A1A551F19EAF}
@@ -99,5 +107,6 @@ Global
 		{17C299D1-DFB2-4812-A606-CF3B932A002A} = {0A979E6F-CFC1-41A0-9C5A-1002BADE8FBC}
 		{FA2588B5-FD4C-45DD-BBC0-381CF074F48D} = {7D39395D-6769-472A-9238-ECA6FE8E8847}
 		{FF1674A7-1A3F-4EFB-8680-252AD926A7B2} = {7D39395D-6769-472A-9238-ECA6FE8E8847}
+		{16FF2045-329E-44DB-9267-D7847C7A4EFB} = {DCD3F3EE-2744-45B8-A423-895988B28D2D}
 	EndGlobalSection
 EndGlobal
