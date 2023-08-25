@@ -1,7 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using System.Globalization;
-
 namespace LINQ_Query_Syntax;
 
 class Program
@@ -110,15 +108,3 @@ class Program
     Write a LINQ query to sort the employees by name in ascending order for employees with the same salary.
     Write a LINQ query to find all names of the employees in the “Sales” department.
 */
-
-class Employee
-{
-    public string Name { get; set; } = string.Empty;
-    public string Department { get; set; } = string.Empty;
-    public decimal Salary { get; set; }
-
-    public override string ToString()
-    {
-        return $"{Name} - {Department} - {Salary.ToString(CultureInfo.CurrentCulture)}";
-    }
-}
